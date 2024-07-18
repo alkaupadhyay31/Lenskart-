@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T17:40:40 IST" name="Default suite" finished-at="2024-07-18T17:44:17 IST" duration-ms="216326">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-18T17:40:40 IST" name="Default test" finished-at="2024-07-18T17:44:17 IST" duration-ms="216326">
+      <class name="runner.lenskartrunnerFile">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" started-at="2024-07-18T17:40:40 IST" name="setUpClass" finished-at="2024-07-18T17:40:41 IST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74db12c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" started-at="2024-07-18T17:40:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-18T17:41:45 IST" duration-ms="64576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for product by category and brand"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lenskart Product Search and Filters"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" started-at="2024-07-18T17:41:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-18T17:42:41 IST" duration-ms="55940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search with misspelled keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lenskart Product Search and Filters"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" started-at="2024-07-18T17:42:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-18T17:43:08 IST" duration-ms="26714" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Iterate through product colors and add to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lenskart Product Search and Filters"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pages.addtoCart.iterateThroughFrameColorsAndAddToCart()" because "this.ac" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.addtoCart.iterateThroughFrameColorsAndAddToCart()" because "this.ac" is null
+at stepDefinition.lenskartSteps.i_iterate_through_all_available_frame_colors(lenskartSteps.java:109)
+at ✽.I iterate through all available frame colors(file:///C:/Users/alkau/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.metadata/Alphabin/src/test/resources/featuresfile/lenskartproduct.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" started-at="2024-07-18T17:43:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-18T17:43:38 IST" duration-ms="30311" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select random lens material from dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lenskart Product Search and Filters"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at stepDefinition.lenskartSteps.i_get_all_available_lens_material_options_from_the_dropdown_and_store_them_in_an_array(lenskartSteps.java:121)
+at ✽.I get all available lens material options from the dropdown and store them in an array(file:///C:/Users/alkau/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.metadata/Alphabin/src/test/resources/featuresfile/lenskartproduct.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" started-at="2024-07-18T17:43:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-18T17:44:17 IST" duration-ms="38474" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify recently added items appear in wishlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lenskart Product Search and Filters"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at stepDefinition.lenskartSteps.i_add_a_few_different_spectacle_frames_to_the_wishlist(lenskartSteps.java:133)
+at ✽.I add a few different spectacle frames to the wishlist(file:///C:/Users/alkau/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.metadata/Alphabin/src/test/resources/featuresfile/lenskartproduct.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.lenskartrunnerFile@b9b00e0]" started-at="2024-07-18T17:44:17 IST" name="tearDownClass" finished-at="2024-07-18T17:44:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.lenskartrunnerFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
