@@ -17,11 +17,37 @@ https://www.lenskart.com/
 - ChromeDriver or GeckoDriver (for Chrome and Firefox testing)
 - IDE (Eclipse,spring tool, IntelliJ IDEA, etc.)
 
+##  Setup Instructions
+- Clone the repository: git clone (https://github.com/alkaupadhyay31/Lenskart-)
+- Install dependencies: mvn clean install
+- Run the tests: mvn test
+
+## Project Structure
+
+- pageObjects: Contains the Page Object Model (POM) classes for all the scenarios
+- stepDefinition: Contains the path for the Cucumber scenarios.
+- features: Contains the feature files defining the scenarios.
+
+  ![image](https://github.com/user-attachments/assets/8249e446-8151-40a1-996f-8d8f57954f41)
+
+
 ## Test Scenarios
 
 ## Feature: Lenskart Product Search and Filters
 
 ![image](https://github.com/user-attachments/assets/29152da3-3c90-4e53-9b87-da07bace67fa)
+
+
+## How to Run
+
+- Ensure Chromebrowser installed and ChromeDriver is in your path
+- Run the test using Maven: mvn test This will execute all the scenarios
+
+  ![image](https://github.com/user-attachments/assets/a3c90ec4-e856-46ad-8219-383c70678fcd)
+
+  ![image](https://github.com/user-attachments/assets/c5fdb239-fa03-4363-8ca7-cefcdd3b61e1)
+
+
 
 
 
