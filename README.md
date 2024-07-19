@@ -1,13 +1,7 @@
 ## Lenskart Web Automation Framework 
 https://www.lenskart.com/
 
-![image](https://github.com/user-attachments/assets/5dc69443-8ee9-4b74-ad9c-ad3b5b9d2c08)
-
-
-
-## Introduction
-
-This project is a Java-based Selenium web automation framework designed to test the Lenskart website. The framework uses Cucumber for BDD, Page Object Model for organized test scripts, and includes features such as screenshot capture on test failure, retry mechanism for failed tests, HTML report generation, parallel testing, cross-browser testing, and logging for debugging.
+## This project is a Java-based Selenium web automation framework designed to test the Lenskart website. The framework uses Cucumber for BDD, Page Object Model for organized test scripts, and includes features such as screenshot capture on test failure, retry mechanism for failed tests, HTML report generation, parallel testing, cross-browser testing, and logging for debugging.
 
 ## Features
 
