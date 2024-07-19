@@ -40,7 +40,45 @@ https://www.lenskart.com/
 
   ![image](https://github.com/user-attachments/assets/a3c90ec4-e856-46ad-8219-383c70678fcd)
 
-  ![image](https://github.com/user-attachments/assets/c5fdb239-fa03-4363-8ca7-cefcdd3b61e1)
+ ## Test Cases
+Test Case 1: In Homepage Search for mens sunglesses and choose a particular brand..
+
+Steps:
+
+- Open the application.
+
+- Enter mens sunglasses in search field
+
+- scroll the frame to handle the dropdown of brand
+
+- select a particular brand
+
+Verify it shows all the product of this particular brand.
+
+Status: PASS
+
+![image](https://github.com/user-attachments/assets/c5fdb239-fa03-4363-8ca7-cefcdd3b61e1)
+
+![image](https://github.com/user-attachments/assets/2aee5025-62b7-419e-afee-3113ea60ac80)
+
+
+Test Case 2: Verify Product search functionality with misspelled product name
+
+Steps:
+
+- Open the application
+  
+- search for a product with incorrect spelling
+
+Verify it shows "No result found!!" message
+
+Status: PASS
+
+![image](https://github.com/user-attachments/assets/be4c8387-97c1-40bd-a2e2-f63ce141b5e8)
+
+![image](https://github.com/user-attachments/assets/e4ff707e-3c2c-416b-8a58-67ab83febe8e)
+
+
 
   ##  Setup Instructions
   
