@@ -21,7 +21,8 @@ https://www.lenskart.com/
 
 ## Feature: Lenskart Product Search and Filters
 
-![image](https://github.com/user-attachments/assets/924ae015-1e0a-4036-a3f6-b79c1d7acd95)
+![image](https://github.com/user-attachments/assets/29152da3-3c90-4e53-9b87-da07bace67fa)
+
 
 
 ## Screenshot Capture
