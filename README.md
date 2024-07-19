@@ -36,9 +36,10 @@ https://www.lenskart.com/
 ## How to Run
 
 - Ensure Chromebrowser installed and ChromeDriver is in your path
-- we can run using runner file
 
   ![image](https://github.com/user-attachments/assets/a3c90ec4-e856-46ad-8219-383c70678fcd)
+
+- we can run using runner file
 
   ![image](https://github.com/user-attachments/assets/4f392297-ba6e-4a8c-9e71-39ff9e0fe8dd)
 
