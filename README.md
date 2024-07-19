@@ -12,10 +12,10 @@ https://www.lenskart.com/
 
 ## Prerequisites
 
-Java JDK 
-Maven
-ChromeDriver or GeckoDriver (for Chrome and Firefox testing)
-IDE (Eclipse,spring tool, IntelliJ IDEA, etc.)
+- Java JDK 
+- Maven
+- ChromeDriver or GeckoDriver (for Chrome and Firefox testing)
+- IDE (Eclipse,spring tool, IntelliJ IDEA, etc.)
 
 ## Test Scenarios
 
