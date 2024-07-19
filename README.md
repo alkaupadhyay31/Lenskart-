@@ -17,11 +17,6 @@ https://www.lenskart.com/
 - ChromeDriver or GeckoDriver (for Chrome and Firefox testing)
 - IDE (Eclipse,spring tool, IntelliJ IDEA, etc.)
 
-##  Setup Instructions
-- Clone the repository: git clone (https://github.com/alkaupadhyay31/Lenskart-)
-- Install dependencies: mvn clean install
-- Run the tests: mvn test
-
 ## Project Structure
 
 - pageObjects: Contains the Page Object Model (POM) classes for all the scenarios
@@ -47,10 +42,7 @@ https://www.lenskart.com/
 
   ![image](https://github.com/user-attachments/assets/c5fdb239-fa03-4363-8ca7-cefcdd3b61e1)
 
+  ##  Setup Instructions
+  
+- Clone the repository: git clone (https://github.com/alkaupadhyay31/Lenskart-)
 
-
-
-
-## Screenshot Capture
-
-Screenshots are captured automatically on test failure and saved in the screenshots directory.
