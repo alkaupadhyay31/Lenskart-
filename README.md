@@ -5,7 +5,7 @@ https://www.lenskart.com/
 
 ## Features
 
-Cucumber BDD Framework: Write tests in a human-readable format.
+- Cucumber BDD Framework: Write tests in a human-readable format.
 Page Object Model: Organize your test scripts for better maintenance.
 Screenshot Capture: Automatically take screenshots on test failure.
 Clear Documentation: Step-by-step instructions for setting up and running the tests.
